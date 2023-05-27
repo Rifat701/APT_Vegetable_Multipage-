@@ -1,0 +1,37 @@
+#vegetable {
+  width: 100%;
+  background: #fff;
+}
+#vegetable .item_card {
+  position: relative;
+  margin: 20px 0;
+  height: 310px;
+  transition: 0.3s;
+  border: 1px solid #fff;
+}
+#vegetable .item_card:hover {
+  border: 1px solid #c6000c;
+}
+#vegetable .item_card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#vegetable .item_card a {
+  position: absolute;
+  bottom: 22px;
+  width: 100px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #c6000c;
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 30px;
+}
+#vegetable h6 {
+  text-transform: capitalize;
+  text-align: center;
+}
